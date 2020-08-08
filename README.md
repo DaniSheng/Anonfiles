@@ -10,12 +10,12 @@ d - for days
 w - for weeks
 m - for months
 ```
-<br>
-You can specify 2 weeks by `--expires 2w` 
-<br><br>
+You can specify 2 weeks by `--expires 2w`
+
 *Indexing*
-<br>
+
 If you index it. The file you upload will be allowed to be indexed in Search Engines.<br><br>
+
 *More Info*
 <br>
 use `Anonfiles.sh --help` to get more information on how to use and what it is.<br><br>
@@ -26,4 +26,9 @@ use `Anonfiles.sh --help` to get more information on how to use and what it is.<
 Use without any options `e.g Anonfiles.sh` to use **Guided Mode**.<br>
 
 # Installing
-The reason of installing instead of using the standalone is, You can use it anywhere. e.g If you are on the `Desktop` directory. The executable will start on the same directory. Even the *Guided Mode* will become a lot easier. You will need to put absolute path on the standalone executable.
+The reason of installing instead of using the standalone is, You can use it anywhere. e.g If you are on the `Desktop` directory. The executable will start on the same directory. Even the *Guided Mode* will become a lot easier. You will need to put absolute path on the standalone executable.<br>
+```
+chmod +x install.sh
+./install.sh
+```
+<br>To Install and Enjoy
