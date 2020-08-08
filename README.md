@@ -5,10 +5,10 @@ Uploader for anonymousfiles.io created by Jaxparrow.<br><br>
 `./Anonfiles {filepath} --expires <time> --index`
 <br>The option named --expires the makes the file delted after the selected time.<br>
 *Available Time options*<br>
-`h - for hours
-d - for days
-w - for weeks
-m - for months`
+`h - for hours<br>
+d - for days<br>
+w - for weeks<br>
+m - for months<br>`
 <br>
 You can specify 2 weeks by `--expires 2w` <br><br>
 *Indexing*<br>
