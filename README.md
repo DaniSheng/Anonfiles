@@ -1,8 +1,14 @@
 # Anonfiles
 Uploader for https://anonymousfiles.io created by Jaxparrow.<br><br>For Begineers and Professionals. Easy to use.
+<br>
+After Installing You don't need to use the .sh file. Simply type `Anonfiles` to use it anywhere. No need of `.sh`. Bye bye!
 
 # Usage ( Manual Mode )
-`$ ./Anonfiles {filepath} --expires <time> --index`
+For Quick Usage - No Extra Options
+`$ ./Anonfiles.sh {filepath}`
+<br>To Quickly upload file and return link. File will be 
+
+`$ ./Anonfiles.sh {filepath} --expires <time> --index`
 <br>The *filepath* is the file which is going to be uploaded. It can be a file name in the currect directory or an absoulute path. But, It must be a file without whitespaces.<br><br>
 
 The option named **--expires** the makes the file delted after the selected time.<br>
@@ -33,4 +39,7 @@ The reason of installing instead of using the standalone is, You can use it anyw
 $ chmod +x install.sh
 $ ./install.sh
 ```
+<br>
+After Installing You don't need to use the .sh file. Simply type `Anonfiles` to use it anywhere.
+
 <br>To Install and Enjoy
