@@ -7,7 +7,8 @@ Uploader for https://anonymousfiles.io created by Jaxparrow.<br><br>For Begineer
 
 The option named **--expires** the makes the file delted after the selected time.<br>
 *Available Time options*<br>
-```h - for hours
+```
+h - for hours
 d - for days
 w - for weeks
 m - for months
