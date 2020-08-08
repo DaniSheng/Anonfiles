@@ -1,5 +1,5 @@
 # Anonfiles
-Uploader for anonymousfiles.io created by Jaxparrow.<br><br>
+Uploader for https://anonymousfiles.io created by Jaxparrow.<br><br>
 
 # Usage ( Manual Mode )
 `$ ./Anonfiles {filepath} --expires <time> --index`
@@ -16,6 +16,7 @@ You can specify 2 weeks by `--expires 2w` <br><br>
 If you index it. The file you upload will be allowed to be indexed in Search Engines.<br><br>
 *More Info* <br>
 use `Anonfiles.sh --help` to get more information on how to use and what it is.<br><br>
+
 # Guided Mode
 ![Guided Mode](/images/gmode.png)
 In Guided mode, You will be Guided step by step when uploading the file. Very Begineer Friendly design.
