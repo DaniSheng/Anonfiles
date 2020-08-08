@@ -1,9 +1,10 @@
 # Anonfiles
-Uploader for https://anonymousfiles.io created by Jaxparrow.<br><br>
+Uploader for https://anonymousfiles.io created by Jaxparrow.<br><br>For Begineers and Professionals. Easy to use.
 
 # Usage ( Manual Mode )
 `$ ./Anonfiles {filepath} --expires <time> --index`
-<br>The *filepath* is the file which is going to be uploaded. It can be a file name in the currect directory or an absoulute path. But, It must be a file without whitespaces.<br>
+<br>The *filepath* is the file which is going to be uploaded. It can be a file name in the currect directory or an absoulute path. But, It must be a file without whitespaces.<br><br>
+
 The option named **--expires** the makes the file delted after the selected time.<br>
 *Available Time options*<br>
 ```h - for hours
