@@ -11,7 +11,7 @@ For Quick Usage - No Extra Options<br>
 `$ ./Anonfiles.sh {filepath} --expires <time> --index`
 <br>The *filepath* is the file which is going to be uploaded. It can be a file name in the currect directory or an absoulute path. But, It must be a file without whitespaces.<br><br>
 
-The option named **--expires** the makes the file delted after the selected time.<br>
+The option named **--expires** the makes the file deleted after the selected time.<br>
 *Available Time options*<br>
 ```
 h - for hours
