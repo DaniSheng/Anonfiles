@@ -12,9 +12,9 @@ m - for months
 ```
 <br>
 You can specify 2 weeks by `--expires 2w` <br><br>
-*Indexing*<br>
+*Indexing* <br>
 If you index it. The file you upload will be allowed to be indexed in Search Engines.<br><br>
-*More Info*<br>
+*More Info* <br>
 use `Anonfiles.sh --help` to get more information on how to use and what it is.<br><br>
 # Guided Mode
 ![Guided Mode](/images/gmode.png)<br>
