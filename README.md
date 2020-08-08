@@ -4,7 +4,7 @@ Uploader for https://anonymousfiles.io created by Jaxparrow.<br><br>For Begineer
 After Installing You don't need to use the .sh file. Simply type `Anonfiles` to use it anywhere. No need of `.sh`. Bye bye!
 
 # Usage ( Manual Mode )
-For Quick Usage - No Extra Options
+For Quick Usage - No Extra Options<br>
 `$ ./Anonfiles.sh {filepath}`
 <br>To Quickly upload file and return link. File will be 
 
