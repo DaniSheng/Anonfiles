@@ -6,8 +6,8 @@ After Installing You don't need to use the .sh file. Simply type `Anonfiles` to 
 # Usage ( Manual Mode )
 For Quick Usage - No Extra Options<br>
 `$ ./Anonfiles.sh {filepath}`
-<br>To Quickly upload file and return link. File will be 
-<br>**Example Usage.**
+<br>To Quickly upload file and return link. File will be uploaded with max expire<br><br>
+<br>**Example Usage.**<br>
 `$ ./Anonfiles.sh /root/Desktop/mytext.txt --expires 20d`
 <br>The above command will upload mytext.txt in my Desktop Directory and make it expire after.
 <br>Install if you don't want to use the absolute path. Just `cd` to the dir and use `$ Anonfile {file}` directly upload.<br>
