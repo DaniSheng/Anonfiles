@@ -85,7 +85,7 @@ else
 Indexing="true"
 fi
 
-curl -F file=@"${gfile}" -F expires=${gexpire} -F no_index=$Indexing https://api.anonymousfiles.io/ > temp.txt | echo "
+curl -F file=@"${gfile}" -F expires=${gexpire} -F no_index=$Indexing https://api.anonymousfiles.io/ > .temp.txt | echo "
 Uploading..."
 
 FILEURL=$(cat temp.txt | jq -r '.url')
@@ -154,11 +154,11 @@ This is created to make the work easier
 
 Showhelp() {
 echo -e "
-Type only the ./Anonfiles.sh to open the ${txtgrn}Guided Mode${txtrst}.
+Type only the $0 to open the ${txtgrn}Guided Mode${txtrst}.
 
 Usage :
 
-./Anonfiles.sh {pathtofile} <options>
+$0 {pathtofile} <options>
 
 Available Options:
 
@@ -180,7 +180,7 @@ Available Options:
 --help - to show this help menu
 
 <Example usage:>
-./Anonfiles.sh mytext.txt --expires 2w --index ${txtylw}or${txtrst} ./Anonfiles.sh /root/mytext.txt --expires 2w --index
+$0 mytext.txt --expires 2w --index ${txtylw}or${txtrst} ./Anonfiles.sh /root/mytext.txt --expires 2w --index
 
 The above command make the file expire after 2 weeks and allows to be indexed on Search Engines
 
@@ -224,7 +224,7 @@ else
 echo -e "FILE : ${txtred}[Not Found]${txtrst}"
 
 echo "
-Use ./Anonfiles.sh --help for More information on how to upload"
+Use $0 --help for More information on how to upload"
 
 exit
 fi
@@ -239,7 +239,7 @@ Files with whitespaces cannot be uploaded
 "
 echo -e "Use ${txtylw}Guided Mode${txtrst} to upload files with Whitespaces
 
-use ./Anonfiles.sh--help on how to use Guided Mode
+use $0 --help on how to use Guided Mode
 "
 echo -e "Job : ${txtred}[Failed]${txtrst}"
 exit
